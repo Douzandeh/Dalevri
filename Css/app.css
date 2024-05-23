@@ -6,6 +6,7 @@
 
 body {
   font-family: poppins;
+  padding-bottom: 8rem;
 }
 
 ul {
@@ -289,4 +290,19 @@ img {
 .action_order > button svg {
   margin-right: 5px;
   margin-top: -3px;
+}
+.row_title_section_food h4 {
+  position: relative;
+  color: var(--color_C90000);
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.line_bottom_row_title {
+  width: 137px;
+  height: 9px;
+  background-color: var(--color_FFF6A3);
+  position: absolute;
+  top: 35px;
+  z-index: -1;
 }
